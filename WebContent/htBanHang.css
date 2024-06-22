@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.hover-div:hover{
+	border: 1px solid #5F9EA0;
+	box-shadow: 3px -3px 0.5 solid #000;
+}
